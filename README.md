@@ -2,22 +2,22 @@
 Configuration and other files for handling example data with LSFMProcessing, F-TGMM, SVF, and MaMuT.  To be published with "4-dimension light sheet imaging and cell tracking in mouse embryos" in ___ (2024).
 <br>
 
-## intermediate-data
+### intermediate-data
 #### Source data containing intermediate steps of the computational cell tracking workflow using F-TGMM and SVF.
 See below for files in this directory.
 <br><br>
 
-## luts
+### luts
 #### Fiji-compatible lookup tables for pseudocoloring projection images for presentation.
 Can be used with MIP->AVI macros in [LSFMProcessing](https://github.com/mhdominguez/LSFMProcessing).
 <br><br>
 
-## SVF
+### SVF
 #### Configuration files for converting [raw TGMM data](https://github.com/mhdominguez/Dominguez-Protocols-2024-TrackingFiles/raw/main/intermediate-data/TGMM_result.tar.gz) to MaMuT via SVF. 
 For the `tissue-bw-prop.py` step when using included [raw TGMM data](https://github.com/mhdominguez/Dominguez-Protocols-2024-TrackingFiles/raw/main/intermediate-data/TGMM_result.tar.gz), you will need [t00004-6tissue.tif](https://github.com/mhdominguez/Dominguez-Protocols-2024-TrackingFiles/raw/main/intermediate-data/t00004-6tissue.tif) to label the tissue types. Available in [intermediate-data](intermediate-data) are an [SVF result](https://github.com/mhdominguez/Dominguez-Protocols-2024-TrackingFiles/raw/main/intermediate-data/SVF_to_MaMuT_output.xml.gz) from our example dataset, and its [MaMuTLibrary](https://github.com/mhdominguez/MaMuTLibrary)-processed [single tissue .xml datasets](https://github.com/mhdominguez/Dominguez-Protocols-2024-TrackingFiles/raw/main/intermediate-data/SVF_4tissue_datasets.tar.gz) (can be analyzed with the included SVFdata_vlnplot.py).
 <br><br>
 
-## TGMM
+### TGMM
 #### Configuration files and shell scripts for running F-TGMM and post-handling of raw .xml data. 
 You will need a raw .klb (or .tif) dataset to run TGMM. Available in [intermediate-data](intermediate-data) are a [raw TGMM solution](https://github.com/mhdominguez/Dominguez-Protocols-2024-TrackingFiles/raw/main/intermediate-data/TGMM_result.tar.gz) from our example dataset.
 <br><br>
