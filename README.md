@@ -9,7 +9,7 @@ Source data containing intermediate steps of the computational cell tracking wor
 Fiji-compatible lookup tables for pseudocoloring projection images for presentation. Can be used with MIP->AVI macros in [LSFMProcessing](https://github.com/mhdominguez/LSFMProcessing)            
 <br><br>
 ## SVF
-#### Configuration files for converting [raw TGMM data](intermediate-data/TGMM_result.tar.gz?raw=1) to MaMuT via SVF. 
+#### Configuration files for converting [raw TGMM data](intermediate-data/TGMM_result.tar.gz?raw=true) to MaMuT via SVF. 
 For the `tissue-bw-prop.py` step and included [raw TGMM data](intermediate-data/TGMM_result.tar.gz?raw=1), you will need [t00004-6tissue.tif](https://github.com/mhdominguez/Dominguez-Protocols-2024-TrackingFiles/raw/main/intermediate-data/t00004-6tissue.tif) to label the tissue types. Available in [intermediate-data](intermediate-data) are [SVF result](https://github.com/mhdominguez/Dominguez-Protocols-2024-TrackingFiles/raw/main/intermediate-data/SVF_to_MaMuT_output.xml.gz) and [MaMuTLibrary](https://github.com/mhdominguez/MaMuTLibrary)-processed [single tissue .xml datasets](https://github.com/mhdominguez/Dominguez-Protocols-2024-TrackingFiles/raw/main/intermediate-data/SVF_4tissue_datasets.tar.gz), the latter of which can be analyzed with the included SVFdata_vlnplot.py.
 <br><br>
 ## TGMM
