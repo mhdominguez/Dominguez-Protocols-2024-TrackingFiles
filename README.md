@@ -4,6 +4,7 @@ Configuration and other files for handling example data with LSFMProcessing, F-T
 
 ## intermediate-data
 #### Source data containing intermediate steps of the computational cell tracking workflow using F-TGMM and SVF.
+See below for files in this directory.
 <br>
 
 ## luts
@@ -12,12 +13,12 @@ Configuration and other files for handling example data with LSFMProcessing, F-T
 
 ## SVF
 #### Configuration files for converting [raw TGMM data]([raw/main/intermediate-data/](https://github.com/mhdominguez/Dominguez-Protocols-2024-TrackingFiles/raw/main/intermediate-data/TGMM_result.tar.gz) to MaMuT via SVF. 
-For the `tissue-bw-prop.py` step and included [raw TGMM data]([intermediate-data](https://github.com/mhdominguez/Dominguez-Protocols-2024-TrackingFiles/raw/main/intermediate-data/TGMM_result.tar.gz), you will need [t00004-6tissue.tif](https://github.com/mhdominguez/Dominguez-Protocols-2024-TrackingFiles/raw/main/intermediate-data/t00004-6tissue.tif) to label the tissue types. Available in [intermediate-data](intermediate-data) are [SVF result](https://github.com/mhdominguez/Dominguez-Protocols-2024-TrackingFiles/raw/main/intermediate-data/SVF_to_MaMuT_output.xml.gz) and [MaMuTLibrary](https://github.com/mhdominguez/MaMuTLibrary)-processed [single tissue .xml datasets](https://github.com/mhdominguez/Dominguez-Protocols-2024-TrackingFiles/raw/main/intermediate-data/SVF_4tissue_datasets.tar.gz), the latter of which can be analyzed with the included SVFdata_vlnplot.py.
+For the `tissue-bw-prop.py` step when using included [raw TGMM data]([intermediate-data](https://github.com/mhdominguez/Dominguez-Protocols-2024-TrackingFiles/raw/main/intermediate-data/TGMM_result.tar.gz), you will need [t00004-6tissue.tif](https://github.com/mhdominguez/Dominguez-Protocols-2024-TrackingFiles/raw/main/intermediate-data/t00004-6tissue.tif) to label the tissue types. Available in [intermediate-data](intermediate-data) are [SVF result](https://github.com/mhdominguez/Dominguez-Protocols-2024-TrackingFiles/raw/main/intermediate-data/SVF_to_MaMuT_output.xml.gz) and [MaMuTLibrary](https://github.com/mhdominguez/MaMuTLibrary)-processed [single tissue .xml datasets](https://github.com/mhdominguez/Dominguez-Protocols-2024-TrackingFiles/raw/main/intermediate-data/SVF_4tissue_datasets.tar.gz), the latter of which can be analyzed with the included SVFdata_vlnplot.py.
 <br>
 
 ## TGMM
 #### Configuration files and shell scripts for running F-TGMM and post-handling of raw .xml data. 
-You will need a raw .klb (or .tif) dataset to run TGMM.
+You will need a raw .klb (or .tif) dataset to run TGMM. Available in [intermediate-data](intermediate-data) are [TGMM result](https://github.com/mhdominguez/Dominguez-Protocols-2024-TrackingFiles/raw/main/intermediate-data/TGMM_result.tar.gz).
 <br>
 
 ## References
