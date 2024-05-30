@@ -8,7 +8,8 @@ See below for files in this directory.
 <br>
 
 ## luts
-#### Fiji-compatible lookup tables for pseudocoloring projection images for presentation. Can be used with MIP->AVI macros in [LSFMProcessing](https://github.com/mhdominguez/LSFMProcessing)            
+#### Fiji-compatible lookup tables for pseudocoloring projection images for presentation.
+Can be used with MIP->AVI macros in [LSFMProcessing](https://github.com/mhdominguez/LSFMProcessing).
 <br>
 
 ## SVF
@@ -18,7 +19,7 @@ For the `tissue-bw-prop.py` step when using included [raw TGMM data]([intermedia
 
 ## TGMM
 #### Configuration files and shell scripts for running F-TGMM and post-handling of raw .xml data. 
-You will need a raw .klb (or .tif) dataset to run TGMM. Available in [intermediate-data](intermediate-data) are [TGMM result](https://github.com/mhdominguez/Dominguez-Protocols-2024-TrackingFiles/raw/main/intermediate-data/TGMM_result.tar.gz).
+You will need a raw .klb (or .tif) dataset to run TGMM. Available in [intermediate-data](intermediate-data) are a [raw TGMM solution](https://github.com/mhdominguez/Dominguez-Protocols-2024-TrackingFiles/raw/main/intermediate-data/TGMM_result.tar.gz) from our example dataset.
 <br>
 
 ## References
